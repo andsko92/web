@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  p {
+    color: red;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+  }
+  .outer {
+    border: 5px solid black;
+  }
+  .box {
+    padding: 10px;
+    width: calc(90% - 30px);
+    background-color: rebeccapurple;
+    color: white;
+  }
+  .square {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    transform: rotate(0.8turn);
+  }
+body {
+    background-color: rgb(137, 253, 137);
+
+}
+
+/*@media (min-width: 30em) {
+    body {
+        background-color: pink;
+        background-image: "../images/cat.webp";
+        background-position: 10px 10px;
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+    }
+}*/

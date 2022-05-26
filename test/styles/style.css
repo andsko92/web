@@ -14,11 +14,14 @@ h1{
     margin: 0;
     padding: 20px 0;
     color: #00539f;
+    background-color: aquamarine;
     text-shadow: 5px 5px 3px black;
     font-size: 60px;
     text-align: center;
 }
-
+strong {
+    color: rgb(255, 0, 255);
+}
 p, li {
     font-size: 16px;
     line-height: 2;
@@ -28,3 +31,20 @@ img {
     display: block;
     margin: 0 auto;
 }
+li {
+    list-style-type: none;
+}
+.special, p strong {
+    color: green;
+    font-weight: bold;
+}
+a:link {
+    color: pink;
+  }
+a:visited {
+    color: green;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
